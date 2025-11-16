@@ -2,8 +2,7 @@ name: Scrape Jugantor Editorial News
 
 on:
   schedule:
-  - cron: '0 23 * * *'   # 5 AM BD
-  - cron: '0 2 * * *'    # 8 AM BD
+  - cron: '0 * * * *'   # 5 AM BD
   workflow_dispatch:  # Allow manual trigger
   push:
     branches:
